@@ -1,0 +1,14 @@
+{
+  "name": "movie-management-system",
+  "version": "1.0.0",
+  "description": "Movie Management System is a full-stack MERN application that allows\r users to manage movies, filter shows, and book tickets through a modern\r and responsive interface.",
+  "main": "index.js",
+  "scripts": {
+    "build" : "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
